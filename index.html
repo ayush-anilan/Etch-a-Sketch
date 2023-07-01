@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <div class="header">
+      <header>Etch A Sketch</header>
+    </div>
+    <div class="container"></div>
+    <div class="buttons">
+      <div class="left">
+        <div id="colorSelection">
+          <input type="color" id="pen" name="Choose" value="#000" />
+          <label id="penTitle" for="pen">Color</label>
+        </div>
+      </div>
+      <div class="mid">
+        <h1>Resolution</h1>
+        <div class="slidecontainer">
+          <input
+            type="range"
+            id="gridSize"
+            name="size"
+            min="2"
+            max="100"
+            value="8"
+          />
+        </div>
+      </div>
+      <div class="right"><button id="reset">Reset</button></div>
+    </div>
+    <div class="footer">Created By @ayush_anilan</div>
+    <script src="index.js"></script>
+  </body>
+</html>
